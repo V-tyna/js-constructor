@@ -1,0 +1,52 @@
+#app {
+    position: relative;
+}
+
+.content {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 200px;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 200px;
+    z-index: 100;
+
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+    overflow-y: auto;
+    margin: 0 auto;
+}
+
+.sidebar h5 {
+    color: #fff;
+    background: black;
+    padding: 5px 15px;
+
+}
+
+.btn-primary {
+    color: #fff;
+    background: black;
+    border: 1px solid black;
+}
+
+.image-style {
+    width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+}
+
+.form-control {
+    margin: 10px;
+    width: 90%;
+}
+
+.btn {
+    margin: 10px;
+}
+
